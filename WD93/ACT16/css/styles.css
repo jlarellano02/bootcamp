@@ -1,0 +1,97 @@
+body {
+    /* font-family: "Comic Sans MS", cursive; */
+    font-family: 'Courier New', Courier;
+    margin: 0px;
+    text-align: center;
+}
+
+table {
+    background-color: rgb(70, 130, 180); 
+    color: white; 
+    width: 100%; 
+    text-align: center; 
+    padding: 10px 50px;
+}
+
+img.freewill_logo:hover {
+    width: 300px;
+    height: 300px;
+}
+
+div #bible_verse {
+    text-align: center;
+}
+
+#ministries {
+    padding: 5px;
+}
+
+#ministries:hover{
+    background-color: red;  
+}
+
+#summary {
+    height: 50vh;
+}
+
+#huell_babineaux {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#img_pastor {
+    width: 450px;
+    margin-right: 20px;
+}
+
+#s_huell {
+    padding-left: 20px;
+}
+
+#huell_symb {
+    color: rgb(70, 130, 180);
+    color: rgb(red, green, blue);
+    font-size: 200%;
+}
+
+#p_huell {
+    font-size: 130%;
+}
+
+#link_huell a {
+    font-size: 200%;
+    color: rgb(255, 0, 216);
+}
+
+#cross_symb {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+ul.checklist {
+    list-style-image: url("img/check.png");
+  }
+
+.img_cross {
+    width: 150px;
+}
+
+#s_other {
+    text-align: center;
+    list-style-position: inside;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+
+#footer, span {
+    color: rgb(160, 160, 160);
+}
+
+table {
+    color: yellow;
+}

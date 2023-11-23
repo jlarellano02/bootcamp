@@ -1,0 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/studebaker-nf');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+
+body {
+    background-color: #696969;
+}
+/* NAVBAR STYLE STARTS */
+.navbar-brand {
+    font-family: 'Studebaker NF', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #D2691E;
+}
+
+.navbar-nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    color: white;
+}
+

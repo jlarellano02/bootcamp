@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" width="">
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aCUhfPAyDHY?si=phDHisKyliZ9qRT5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <form target="_blank">
+        <h2>Basic information</h2>
+        <label for="first_name">First name:</label>
+        <input type="text" id="first_name" placeholder="ex. Juan"><br>
+        <label for="last_name">Last name:</label>
+        <input type="text" id="last_name" placeholder="ex. Dela Cruz"><br>
+        <label for="place_of_birth">Place of Birth:</label>
+        <input type="text" id="place_of_birth" placeholder="ex. Quezon City"><br>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate"><br>
+        <label for="civil_status">Civil Status:</label>
+        <select id="civil_status" name="civil_status">
+            <option disabled selected>Select one...</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widowed">Widowed</option>
+            <option value="separated">Separated</option>
+        </select><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option disabled selected>Select one...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label for="mother_maiden_name">Mother's maiden name:</label>
+        <input type="text" id="mother_maiden_name" placeholder="ex. Juana Belmonte"><br>
+        <label for="father_name">Father's name:</label>
+        <input type="text" id="father_name" placeholder="ex. Pedro Dela Cruz"><br>
+        <h2>Contact information</h2>
+        <label for="email_address">Email address:</label>
+        <input type="email" id="email_address" placeholder="abcdefgh@yahoo.com"><br>
+        <label for="contact_number">Contact number:</label>
+        <input type="number" id="contact_number" placeholder="11-digit contact number"><br>
+        <label for="telephone_number">Telephone number:</label>
+        <input type="number" id="telephone_number" placeholder="8-digit telephone number"><br>
+        <h2>Address</h2>
+        <label for="street_number">Street number:</label>
+        <input type="number" id="street_number" placeholder="input street number"><br>
+        <label for="street_name">Street name:</label>
+        <input type="text" id="street_name" placeholder="ex. Manggahan"><br>
+        <label for="barangay">Barangay:</label>
+        <input type="text" id="barangay" placeholder="Commonwealth"><br>
+        <label for="city">City/Town:</label>
+        <input type="text" id="city" placeholder="ex. Quezon City"><br>
+        <label for="province">Province:</label>
+        <input type="text" id="province" placeholder="ex. Metro Manila"><br>
+        <label for="full_address">Full Address:</label>
+        <input type="text" id="full_address" placeholder="input full address"><br>
+        <h2>Goverment information</h2>
+        <label for="sss_id">SSS ID:</label>
+        <input type="number" id="sss_id" placeholder="10-digit number"><br>
+        <label for="pagibig_id">Pag-Ibig ID:</label>
+        <input type="number" id="pagibig_id" placeholder="12-digit number"><br>
+        <label for="philhealth_id">Philhealth ID:</label>
+        <input type="number" id="philhealth_id" placeholder="12-digit number"><br>
+        <label for="sss_id">Upload 2x2 picture:</label>
+        <input type="file" id="picture_id"><br>
+        <label for="sss_id">Upload picture of government ID:</label>
+        <input type="file" id="government_id"><br>
+        <h2>Account Information</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="input username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="input password"><br>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" placeholder="re-enter password"><br>
+        <label for="profile_image">Upload profile image:</label>
+        <input type="file" id="profile_image"><br>
+        <h2>Have you experienced any of the following in the last 30 days?</h2>
+        <input type="checkbox" name="coughing" id="coughing" value="coughing">
+        <label for="coughing">Coughing</label><br>
+        <input type="checkbox" name="fever" id="fever" value="fever">
+        <label for="fever">Fever</label><br>
+        <input type="checkbox" name="headache" id="headache" value="headache">
+        <label for="headache">Headache</label><br>
+        <input type="checkbox" name="common_cold" id="common_cold" value="common_cold">
+        <label for="common_cold">Common cold</label><br>
+        <input type="checkbox" name="body_ache" id="body_ache" value="body_ache">
+        <label for="body_ache">Body ache</label><br>
+        <input type="checkbox" name="sore_throat" id="sore_throat" value="sore_throat">
+        <label for="sore_throat">Sore throat</label><br>
+        <input type="checkbox" name="tiredness" id="tiredness" value="tiredness">
+        <label for="tiredness">Tiredness</label><br>
+        <input type="checkbox" name="loss_of_smell" id="loss_of_smell" value="loss_of_smell">
+        <label for="loss_of_smell">Loss of smell</label><br>
+        <h2>Give a short description about yourself</h2>
+        <textarea placeholder="brief description about yourself"></textarea><br>
+        <button type="submit" id="submit_btn">Submit</button>
+    </form>
+</body>
+</html>

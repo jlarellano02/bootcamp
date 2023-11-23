@@ -1,0 +1,3 @@
+cd
+echo Hello
+pause
